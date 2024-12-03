@@ -1,0 +1,44 @@
+/* index.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #def1fc;
+
+  /* color: #166b93; */
+}
+
+.text-xxxs {
+  font-size: 7px;
+  line-height: 10.5px;
+  font-weight: 500;
+}
+
+.text-xxs {
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 500;
+}
+
+/* Utility classes for the navbar */
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.hover\:border-black:hover {
+  border-color: black;
+}
+
+.transition-all {
+  transition: all 0.2s ease-in-out;
+}

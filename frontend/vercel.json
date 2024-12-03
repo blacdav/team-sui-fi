@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/dashboard",
+      "dest": "/"
+    },
+    {
+      "src": "/dashboard/home",
+      "dest": "/"
+    },
+    {
+      "src": "/dashboard/finances",
+      "dest": "/"
+    },
+    {
+      "src": "/dashboard/analytics",
+      "dest": "/"
+    },
+    {
+      "src": "/dashboard/customers",
+      "dest": "/"
+    },
+    {
+      "src": "/dashboard/guides-demos",
+      "dest": "/"
+    },
+    {
+      "src": "/connect-wallet",
+      "dest": "/"
+    },
+    {
+      "src": "/create-account",
+      "dest": "/"
+    },
+    {
+      "src": "/more",
+      "dest": "/"
+    }
+  ]
+}

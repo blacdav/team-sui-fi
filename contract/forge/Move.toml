@@ -1,0 +1,10 @@
+[package]
+name = "my_first_package"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir="crates/sui-framework/packages/sui-framework/", rev = "testnet" }
+
+[addresses]
+my_first_package = "0xed9c78d0ff024e5c395ff6e3bd5f03e1d6bc309f741e5dde64f12cd798dc1bdb"
+sui = "0000000000000000000000000000000000000000000000000000000000000002"
